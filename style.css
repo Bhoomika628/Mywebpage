@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("back.jpeg") no-repeat center/cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.card {
+    display: flex;
+    width: 900px;
+    height: 720px;
+
+
+    background: rgb(243, 240, 240);
+    border-radius: 20px;
+    overflow: hidden;
+
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+}
+
+/* LEFT IMAGE */
+.card img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* RIGHT CONTENT */
+.content {
+    width: 35%;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+/* Text */
+h1 {
+    color: #ff7a00;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #ff7a00;
+}
+
+h3 {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    color: #444444;
+    line-height: 1.5;
+}
+
+/* Welcome text */
+.welcome-text {
+    color: #4b9e4b;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Button */
+button {
+    margin: 10px 0;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+
+    background: linear-gradient(45deg, #ff9a00, #ff6a00);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Links */
+.links a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+
+    background: #ff7a00;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
